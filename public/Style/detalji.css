@@ -1,0 +1,251 @@
+body {
+  background-color: #fdf1d3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body h3 {
+  margin-left: 20px;
+}
+
+iframe {
+  border: none; 
+  width: 100%;
+  height: 50px;
+}
+
+#osnovno {
+  text-align: left;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#osnovno img {
+  max-width: 100%;
+  height: auto;
+}
+
+#detalji {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#form-container {
+  border: 1px solid #000;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+form select, form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+form select:focus, form textarea:focus {
+  border-color: #3b9d9d; /* Promjena boje bordera prilikom fokusa */
+  outline: none;
+  box-shadow: 0 0 5px rgba(59, 157, 157, 0.5);
+}
+
+form button {
+  background-color: #3b9d9d;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2a7b7b; 
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+#tekstDetails {
+  margin-top: 20px;
+}
+
+#ponudaDetails {
+  margin-top: 20px;
+}
+
+select, textarea {
+  width: 99%;
+}
+
+#kolona1 {
+  order: 1;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+#kolona2 {
+  order: 2;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+#opis {
+  order: 3;
+  flex: 0 1 100%;
+  align-self: auto;
+}
+
+#upiti {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+  position: relative; /* Ovaj stil omogućava pozicioniranje dugmadi unutar upita */
+  display: flex;
+  flex-direction: column; /* Postavlja dugmad i upite u kolonu */
+  align-items: center; /* Centriranje sadržaja */
+}
+
+.upit {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  display: none; /* Sakrivanje svih upita osim prvog */
+  width: 95%; /* Proširivanje na 90% širine */
+
+}
+
+.upit:first-child {
+  display: block; /* Prikaz samo prvog upita */
+}
+
+.navigacija-dugmadi {
+  display: flex; 
+  margin: 10px auto;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.navigacija-dugmadi button {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigacija-dugmadi button:hover {
+  background-color: #87cefa; /* Tamnija nijansa plave na hover */
+}
+
+.navigacijaZahtjeva {
+  display: flex; 
+  margin: 10px auto;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.navigacijaZahtjeva button {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigacijaZahtjeva button:hover {
+  background-color: #87cefa; /* Tamnija nijansa plave na hover */
+}
+
+.navigacijaPonuda {
+  display: flex; 
+  margin: 10px auto;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.navigacijaPonuda button {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigacijaPonuda button:hover {
+  background-color: #87cefa; /* Tamnija nijansa plave na hover */
+}
+
+#zahtjevi {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.zahtjev {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 95%; 
+}
+
+#ponude {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.ponuda {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 95%; 
+}

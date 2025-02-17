@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan Sarajevo",
+    "kvadratura": 58,
+    "cijena": 232000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      { "korisnik_id": 1, "tekst_upita": "Nullam eu pede mollis pretium." },
+      { "korisnik_id": 2, "tekst_upita": "Phasellus viverra nulla." },
+      { "korisnik_id": 3, "tekst_upita": "Pitanje o nekretnini" },
+      { "korisnik_id": 3, "tekst_upita": "Jos jedno pitanje o nekretnini" },
+      { "korisnik_id": 1, "tekst_upita": "Kolika je cijena kvadrata?" }
+    ]
+  },
+  {
+    "id": 2,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Mali poslovni prostor",
+    "kvadratura": 20,
+    "cijena": 70000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      { "korisnik_id": 2, "tekst_upita": "Ima li parking?" },
+      { "korisnik_id": 3, "tekst_upita": "Pitanje o nekretnini 2" },
+      { "korisnik_id": 3, "tekst_upita": "Cijena me zanima" },
+      { "korisnik_id": 3, "tekst_upita": "Koje grijanje koristi?" },
+      { "korisnik_id": 1, "tekst_upita": "Da li je renovirano?" }
+    ]
+  },
+  {
+    "id": 3,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Prostrana kuća sa dvorištem",
+    "kvadratura": 150,
+    "cijena": 400000,
+    "tip_grijanja": "centralno",
+    "lokacija": "Ilidža",
+    "godina_izgradnje": 2015,
+    "datum_objave": "15.07.2023.",
+    "opis": "Prostrana kuća sa velikim dvorištem, pogodna za porodicu.",
+    "upiti": [
+      { "korisnik_id": 1, "tekst_upita": "Koliko je udaljena od centra grada?" },
+      { "korisnik_id": 2, "tekst_upita": "Ima li garažu?" },
+      { "korisnik_id": 3, "tekst_upita": "Koliko je velika okućnica?" },
+      { "korisnik_id": 1, "tekst_upita": "Da li je pogodna za više porodica?" },
+      { "korisnik_id": 2, "tekst_upita": "Može li se pogledati uživo?" }
+    ]
+  },
+  {
+    "id": 4,
+    "tip_nekretnine": "Stan",
+    "naziv": "Luksuzan stan u centru",
+    "kvadratura": 85,
+    "cijena": 320000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2020,
+    "datum_objave": "01.12.2023.",
+    "opis": "Moderan stan u centru grada, blizu svih sadržaja.",
+    "upiti": [
+      { "korisnik_id": 3, "tekst_upita": "Ima li balkon?" },
+      { "korisnik_id": 1, "tekst_upita": "Blizu kojih škola se nalazi?" },
+      { "korisnik_id": 2, "tekst_upita": "Koje grijanje koristi?" },
+      { "korisnik_id": 3, "tekst_upita": "Koliko je udaljen od tramvaja?" },
+      { "korisnik_id": 1, "tekst_upita": "Je li opremljen?" }
+    ]
+  },
+  {
+    "id": 5,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Vikendica na planini",
+    "kvadratura": 75,
+    "cijena": 120000,
+    "tip_grijanja": "drva",
+    "lokacija": "Jahorina",
+    "godina_izgradnje": 2018,
+    "datum_objave": "05.09.2023.",
+    "opis": "Idealno mjesto za odmor, s prekrasnim pogledom.",
+    "upiti": [
+      { "korisnik_id": 2, "tekst_upita": "Ima li prilaz za auto?" },
+      { "korisnik_id": 3, "tekst_upita": "Koliko je daleko od skijališta?" },
+      { "korisnik_id": 1, "tekst_upita": "Da li je izolovana?" },
+      { "korisnik_id": 3, "tekst_upita": "Mogu li ponijeti kućnog ljubimca?" },
+      { "korisnik_id": 1, "tekst_upita": "Je li dostupna cijele godine?" }
+    ]
+  },
+  {
+    "id": 6,
+    "tip_nekretnine": "Kuća",
+    "naziv": "Obiteljska kuća",
+    "kvadratura": 200,
+    "cijena": 500000,
+    "tip_grijanja": "plin",
+    "lokacija": "Grbavica",
+    "godina_izgradnje": 2010,
+    "datum_objave": "25.06.2023.",
+    "opis": "Prostrana obiteljska kuća sa 5 soba i velikim dvorištem.",
+    "upiti": [
+      { "korisnik_id": 1, "tekst_upita": "Je li dostupan kredit za ovu nekretninu?" },
+      { "korisnik_id": 2, "tekst_upita": "Koliko je blizu javnog prijevoza?" },
+      { "korisnik_id": 3, "tekst_upita": "Ima li bazen?" },
+      { "korisnik_id": 2, "tekst_upita": "Je li renovirana?" },
+      { "korisnik_id": 1, "tekst_upita": "Koja je cijena po dogovoru?" }
+    ]
+  }
+]

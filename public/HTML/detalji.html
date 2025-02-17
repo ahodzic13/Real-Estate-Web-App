@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bs-BA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalji Nekretnine</title>
+    <link rel="stylesheet" href="../style/detalji.css">
+</head>
+<body>
+    <iframe src="../html/meni.html"></iframe>
+
+    <div id="osnovno">
+    </div>
+
+    <h3>DETALJI</h3>
+    <div id="detalji">
+    </div>
+
+    <h3>FORMA ZA SLANJE INTERESOVANJA</h3>
+    <div id="form-container"></div>
+
+    <h3>UPITI</h3>
+    <div id="upiti">
+        
+    </div>
+    <div class="navigacija-dugmadi">
+        <button id="prethodni">Prethodni upit</button>
+        <button id="sljedeci">Sljedeci upit</button>
+    </div>
+
+    <div id="zahtjevi">
+
+    </div>
+    <div class="navigacijaZahtjeva">
+        <button id="prethodniZahtjev">Prethodni zahtjev</button>
+        <button id="sljedeciZahtjev">Sljedeci zahtjev</button>
+    </div>
+
+    <div id="ponude">
+
+    </div>
+    <div class="navigacijaPonuda">
+        <button id="prethodnaPonuda">Prethodna ponuda</button>
+        <button id="sljedecaPonuda">Sljedeca ponuda</button>
+    </div>
+
+    <script src="../scripts/MarketingAjax.js"></script>
+    <script src="../scripts/PoziviAjax.js"></script>
+    <script src="../scripts/detalji.js"></script>
+</body>
+</html>
+<!-- 
+            lokacijaLink.addEventListener('click', function (event) {
+                event.preventDefault(); // Sprečavanje default akcije za <a href="#">
+                const lokacija = nekretnina.lokacija; // Preuzimanje lokacije
+
+                PoziviAjax.getTop5Nekretnina(lokacija, function (error, topNekretnine) {
+                    if (error) {
+                        console.error("Greška prilikom dohvatanja top 5 nekretnina:", error);
+                    } else {
+                        // Čuvanje Top 5 nekretnina u localStorage i preusmjeravanje
+                        localStorage.setItem('top5Nekretnine', JSON.stringify(topNekretnine));
+                        window.location.href = "../html/nekretnine.html";
+                    }
+                });
+            });
+-->
